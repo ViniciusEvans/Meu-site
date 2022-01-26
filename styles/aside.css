@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu&display=swap");
+@import url("http://fonts.cdnfonts.com/css/kollektif");
+@import url("http://fonts.cdnfonts.com/css/ubuntu-mono");
+header {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    /* box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02), 6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028), 12.5px 12.5px 10px rgba(0, 0, 0, 0.035), 22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042); */
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    cursor: pointer;
+}
+
+.logo {
+    max-width: 8rem;
+    max-height: 6rem;
+    width: auto;
+    height: auto;
+}
+
+.name-logo {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #191970;
+    letter-spacing: 2px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn {
+    all: unset;
+    font-size: 1.6rem;
+    font-family: "Ubuntu Mono", sans-serif;
+    font-weight: 400;
+    padding: 3.2rem;
+    margin: 1rem;
+    text-align: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #FAFAFA;
+}
+
+.btn:nth-child(1):hover {
+    box-shadow: -4.8px 2.8px 2.2px rgba(0, 0, 0, 0.019), -8.7px 6.7px 5.3px rgba(0, 0, 0, 0.028), -15.5px 12.5px 10px rgba(0, 0, 0, 0.035), -24.3px 22.3px 17.9px rgba(0, 0, 0, 0.042);
+}
+
+.btn:nth-child(2):hover {
+    box-shadow: -2.8px 3.4px 2.7px rgba(0, 0, 0, 0.019), -6.7px 8.7px 6.9px rgba(0, 0, 0, 0.027), -12.5px 17.7px 14.2px rgba(0, 0, 0, 0.033), -22.3px 36.5px 29.2px rgba(0, 0, 0, 0.041);
+}
+
+.btn:nth-child(3):hover {
+    box-shadow: 0px 3.4px 2.7px rgba(0, 0, 0, 0.019), 0px 8.7px 6.9px rgba(0, 0, 0, 0.027), 0px 17.7px 14.2px rgba(0, 0, 0, 0.033), 0px 36.5px 29.2px rgba(0, 0, 0, 0.041);
+}
+
+.btn:nth-child(4):hover {
+    box-shadow: 2.8px 3.4px 2.7px rgba(0, 0, 0, 0.019), 6.7px 8.7px 6.9px rgba(0, 0, 0, 0.027), 12.5px 17.7px 14.2px rgba(0, 0, 0, 0.033), 22.3px 36.5px 29.2px rgba(0, 0, 0, 0.041);
+}
+
+.btn:nth-child(5):hover {
+    box-shadow: 4.8px 2.8px 2.2px rgba(0, 0, 0, 0.02), 8.7px 6.7px 5.3px rgba(0, 0, 0, 0.028), 15.5px 12.5px 10px rgba(0, 0, 0, 0.035), 24.3px 22.3px 17.9px rgba(0, 0, 0, 0.042);
+}
+
+box-icon {
+    margin: 1.5em;
+}
