@@ -3,7 +3,7 @@ let ticking = false;
 
 function doSomething(scrollPos) {
     const header = document.querySelector('header')
-    if (lastKnownScrollPosition >= 656) {
+    if (lastKnownScrollPosition >= 100) {
         header.style.backgroundColor = '#FAFAFA'
         header.style.boxShadow = "2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02), 6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028), 12.5px 12.5px 10px rgba(0, 0, 0, 0.035), 22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042);"
     } else {
