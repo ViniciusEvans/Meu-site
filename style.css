@@ -29,6 +29,17 @@ section {
   align-items: center;
   height: 80rem;
 }
+.sec a::before {
+  content: "Veja aqui";
+  font-size: 1.6rem;
+  color: #ffff;
+  text-decoration: none;
+  display: block;
+  font-family: "Bebas Neue", cursive;
+}
+a {
+  text-decoration: none;
+}
 .section-home {
   min-height: 100vh;
 }
@@ -171,7 +182,9 @@ footer {
 }
 
 .section-projects {
+  flex-wrap: wrap;
   width: 100%;
+  height: auto;
   background-color: white;
 }
 
